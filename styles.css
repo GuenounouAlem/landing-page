@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+header {
+    display: flex;
+    padding: 0.5rem 8rem;
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    margin-left: auto;
+}
+
+a {
+ text-decoration: none;
+}
