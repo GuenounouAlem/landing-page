@@ -34,8 +34,8 @@ footer {
 button {
     border: 0px;
     border-radius: 5px;
-    width: 100px;
-    height: 50px;
+    width: 90px;
+    height: 35px;
     font-size: large;
     font-weight: 600;
     color: #f9faf8;
@@ -109,7 +109,24 @@ img {
     padding: 150px 300px;
 }
 
+.third-content {
+    padding: 78px 250px;
+    flex-wrap: wrap;
+}
 
+.large-card {
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.large-card > button {
+    border: 2px solid white;
+}
 
 
 
